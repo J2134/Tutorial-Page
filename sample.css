@@ -1,7 +1,11 @@
-* {
+ *{
     box-sizing: border-box;
 }
-
+.row {
+    border-style: groove;
+    border-color: #FFD700;
+    border: 1ex
+}
 .column {
     float: left;
     padding: 10px;
@@ -9,6 +13,7 @@
 }
 
 .left, .right {
+
   width: 25%;
   color:#FFD700;
 
@@ -28,15 +33,13 @@
    background-color: black;
    text-align: center; 
 }
-.tBody{
-}
+
 .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: black;
-    text-color: FFD700;
     text-align: center;
 }
 
